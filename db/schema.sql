@@ -3,8 +3,8 @@ DROP TABLE IF EXISTS parties;
 
 CREATE TABLE parties (
   id INTEGER AUTO_INCREMENT PRIMARY KEY,
-  name_ VARCHAR(50) NOT NULL,
-  descr TEXT
+  name VARCHAR(50) NOT NULL,
+  description TEXT
 );
 
 CREATE TABLE candidates (
